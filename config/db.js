@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 console.log(process.env.HOST);
-console.log(process.env.USER);
+// console.log(process.env.USER);
 const db = mysql2.createConnection({
     host: process.env.HOST,
     user: process.env.USER,
